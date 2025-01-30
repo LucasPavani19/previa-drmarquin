@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Dr. Marcus Junior - Login</title>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <a href="home.html" class="back-link">
+                <i class='bx bx-left-arrow-alt'></i>
+                Página inicial
+            </a>
+
+            <div class="auth-header">
+                <img src="./img/logo.png" alt="Logo Dr. Marcus Junior">
+                <h2>Área do Paciente</h2>
+                <p>Faça login para acessar sua conta</p>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" required>
+                </div>
+                
+                <div class="form-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox">
+                        Manter conectado
+                    </label>
+                    <a href="recuperar-senha.html" class="forgot-link">Esqueceu a senha?</a>
+                </div>
+                <button type="submit" class="auth-button">Entrar</button>
+                
+                <div class="auth-links">
+                    <p>Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html> 

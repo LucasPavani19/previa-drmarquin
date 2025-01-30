@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Dr. Marcus Junior - Cadastro</title>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <a href="home.html" class="back-link">
+                <i class='bx bx-left-arrow-alt'></i>
+                Página inicial
+            </a>
+
+            <div class="auth-header">
+                <img src="./img/logo.png" alt="Logo Dr. Marcus Junior">
+                <h2>Criar Conta</h2>
+                <p>Preencha seus dados para começar</p>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Nome completo</label>
+                    <input type="text" id="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirmar senha</label>
+                    <input type="password" id="confirm-password" required>
+                </div>
+                
+                <button type="submit" class="auth-button">Criar conta</button>
+                
+                <div class="auth-links">
+                    <p>Já tem uma conta? <a href="login.html">Fazer login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html> 
