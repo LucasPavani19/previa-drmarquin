@@ -73,6 +73,11 @@ body {
     position: relative;
     max-width: 200px;
     height: auto;
+    filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.15));  /* Nova sombra azulada */
+    transition: all 0.3s ease;
+    border-radius: 35px;  /* Caso sua logo tenha cantos arredondados */
+    background: rgb(255, 255, 255);  /* Fundo sutil para melhor contraste */
+    padding: 5px;  /* Espaçamento interno opcional */
 }
 
 
